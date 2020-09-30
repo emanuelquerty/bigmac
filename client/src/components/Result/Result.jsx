@@ -33,6 +33,7 @@ function Result(props) {
     );
   }
 
+  // This renders the random result pulled from a random country
   function getRandomResult() {
     return (
       <React.Fragment>

@@ -9,4 +9,4 @@ the big mac data from https://raw.githubusercontent.com/zelima/big-mac-index/mas
 
 - npm run clientTest: tests all react components (Unit Testing)
 
-#### Emanuel Inacio
+#### By Emanuel Inacio

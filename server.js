@@ -6,7 +6,6 @@ const port = process.env.PORT || 5000;
 
 const countryController = require("./controllers/country");
 const bigMacController = require("./controllers/bigmac");
-const { response } = require("express");
 
 app.get("/country", countryController.getCountry);
 

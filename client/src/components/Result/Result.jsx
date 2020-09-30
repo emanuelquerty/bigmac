@@ -12,6 +12,7 @@ function Result(props) {
     purchaseParity,
   } = props;
 
+  // This renders the local results
   function getLocalResult() {
     return (
       <React.Fragment>

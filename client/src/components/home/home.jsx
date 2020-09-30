@@ -12,6 +12,7 @@ function Home() {
   const [inputAmount, setInputAmount] = useState(0);
 
   const [localCountryBigMacData, setLocalCountryBigMacData] = useState({});
+
   const [randomCountryBigMacData, setRandomCountryBigMacData] = useState({});
 
   useEffect(() => {

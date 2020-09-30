@@ -8,5 +8,3 @@ the big mac data from https://raw.githubusercontent.com/zelima/big-mac-index/mas
 - npm start: loads the entire application on port 3000
 
 - npm run clientTest: tests all react components (Unit Testing)
-
-#### By Emanuel Inacio

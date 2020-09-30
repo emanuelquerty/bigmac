@@ -1,0 +1,10 @@
+.result {
+  font-size: 1.5rem;
+  margin-top: 4rem;
+}
+
+.highlight {
+  color: var(--highlight-color);
+  font-weight: bold;
+  font-size: 2rem;
+}

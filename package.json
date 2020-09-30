@@ -1,0 +1,24 @@
+{
+  "name": "bigmac",
+  "version": "1.0.0",
+  "description": "big mac application",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm run dev",
+    "serverStart": "nodemon server.js",
+    "clientStart": "cd client && npm start",
+    "clientTest": "cd client && npm test",
+    "dev": "concurrently \"npm run serverStart\" \"npm run clientStart\" "
+  },
+  "author": "Emanuel Inacio",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "concurrently": "^5.3.0",
+    "express": "^4.17.1",
+    "neat-csv": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

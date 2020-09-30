@@ -1,0 +1,24 @@
+.header {
+  font-size: 1.6rem;
+  background: var(--header-bg-color);
+  padding: 1rem;
+  border-radius: 0.4rem;
+  font-weight: bold;
+}
+
+.header__amount-label {
+  display: block;
+  margin: 1rem 0 2rem 0;
+}
+
+#header__amount-input {
+  width: 100%;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 0.4rem;
+}
+
+#header__amount-input:focus {
+  border: 1px solid var(--highlight-color);
+}
